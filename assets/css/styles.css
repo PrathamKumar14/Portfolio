@@ -76,6 +76,7 @@ section{
 
 .section-1 {
 	background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145));
+	width: 100vw;
 }
 
 .about-me{
@@ -84,6 +85,7 @@ section{
 
 .section-2 {
 	background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145));
+	width: 100vw;
 }
 
 .intro-description{
