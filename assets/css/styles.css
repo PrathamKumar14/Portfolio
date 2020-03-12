@@ -74,12 +74,12 @@ a:hover {
 }
 
 section {
+  background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145));
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
 .section-1 {
-  background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145));
   width: 100vw;
 }
 
@@ -88,7 +88,6 @@ section {
 }
 
 .section-2 {
-  background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145));
   width: 100vw;
 }
 
@@ -127,9 +126,79 @@ section {
   background-color: transparent;
 }
 
+/* Conatact Form */
+
+.form-heading {
+  font-size: 2.5rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.form-text {
+  font-size: 1.2rem;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  background:rgb(30,30,40);
+ }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #000;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #000; }
+
+::placeholder {
+  color: #000;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#000;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#00d1b2;
+  font-size:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#fff; }
+
 #footer {
   padding: 3% 15%;
   text-align: center;
+  background-color: #000;
 }
 
 .fa-footer {

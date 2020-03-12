@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Pratham</title>
 
 	<!-- Font Awesome for icons  -->
-  <script src="https://kit.fontawesome.com/8de953ada6.js" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/8de953ada6.js" crossorigin="anonymous"></script>
 
 	<!-- css files -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
@@ -18,263 +19,286 @@
 	<link rel="icon" href="assets/img/icon.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-	<body>
-		<!-- Navbar -->
-		<section class="section section-1">
-			<nav class="nav container void-background">
-				<!-- This "nav-menu" is hidden on mobile -->
-				<!-- Add the modifier "is-active" to display it on mobile -->
-				<div class="nav-left">
 
-					<a class="navbar-brand js-scroll-trigger" href="">
-			      <span class="d-block d-lg-none">🅟🅡🅐🅣🅗🅐🅜</span>
-			    </a>
-				</div>
+<body>
+	<!-- Navbar -->
+	<section class="section section-1">
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
 
-				<div class="nav-right nav-menu">
-					<a class="nav-item" href="#about">About</a>
-					<a class="nav-item" href="#projects">Projects</a>
-					<a class="nav-item" href="https://prathamkumar14.github.io/my-Resume/">Resume</a>
-				</div>
-
-				<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
-				<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
-				<span class="nav-toggle">
-					<span></span>
-					<span></span>
-					<span></span>
-				</span>
-			</nav>
-		</section>
-
-
-		<!-- About Me -->
-		<section id="about" class="section section-1 about-me">
-			<div class="container has-text-centered">
-				<!-- Source: https://flic.kr/p/pAZBNK -->
-				<img class="avatar" src="assets/img/myPic3.JPG">
+				<a class="navbar-brand js-scroll-trigger" href="">
+					<span class="d-block d-lg-none">🅟🅡🅐🅣🅗🅐🅜</span>
+				</a>
 			</div>
-			<div class="container"></br>
-				<p class="intro">
-					Hey there ! I'm Pratham a Delhi based web developer. I have a passion for web development and love to create websites for web and mobile devices.<br><br>
-				</p>
-				<p class="intro check-my-projects">Check My Projects</p>
-				<a href="#projects"><p class="intro" id="arrow" style="font-size: 2rem"></p></a>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="https://prathamkumar14.github.io/my-Resume/">Resume</a>
 			</div>
-		</section>
 
-		<hr class="line">
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+	</section>
 
-		<!-- Projects -->
-		<section  id="projects" class="section section-2">
-			<div class="container">
-				<div class="has-text-centered">
-					<u style="color: yellow">
-						<h3 class="title is-3">Projects</h3>
-					</u>
+
+	<!-- About Me -->
+	<section id="about" class="section section-1 about-me">
+		<div class="container has-text-centered">
+			<img class="avatar" src="assets/img/myPic3.JPG">
+		</div>
+		<div class="container"></br>
+			<p class="intro">
+				Hey there ! I'm Pratham a Delhi based web developer. I have a passion for web development and love to create websites for web and mobile devices.<br><br>
+			</p>
+			<p class="intro check-my-projects">Check My Projects</p>
+			<a href="#projects">
+				<p class="intro" id="arrow" style="font-size: 2rem"></p>
+			</a>
+		</div>
+	</section>
+
+	<hr class="line">
+
+	<!-- Projects -->
+	<section id="projects" class="section section-2">
+		<div class="container">
+			<div class="has-text-centered">
+				<u style="color: yellow">
+					<h3 class="title is-3">Projects</h3>
+				</u>
+			</div>
+
+			<div class="columns is-multiline is-desktop">
+				<!-- Project 1 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://peaceful-journey-57785.herokuapp.com/"><img class="project-img" src="assets/img/work-img/Blog.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									Platform where you can share your Views, Ideas, Thoughts, Feelings. This Blog website is made by using MongoDB, Node.js, Express, EJS.
+								</p>
+							</div>
+						</article>
+					</div>
 				</div>
+				<!-- Project 2 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://prathamkumar14.github.io/tindog/"><img class="project-img" src="assets/img/work-img/Tindog.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									Just to check my depth of knowledge in field of web Development, I made a tindog website using some basic stuff. This is an responsive website in terms of Screen size i.e, laptop, tablet, Mobile devices
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div> <!-- div of classes columns is-multiline is-desktop -->
+			<div class="columns is-multiline is-desktop">
+				<!-- Project 3 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://pacific-reef-71103.herokuapp.com/"><img class="project-img" src="assets/img/work-img/SignUp.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									This is a Signup page where you can signup and once done your details will be stored in the databse. This project is implemented using external server and some backend techniques.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- Project 4 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://prathamkumar14.github.io/Drum-Kit/"><img class="project-img" src="assets/img/work-img/DrumKit.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									Play some melody here: This is a virtual drum kit where you can compose your favourite music just by pressing your keyboard's keys.<br>This is Frontend only using javascript.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div> <!-- div of classes columns is-multiline is-desktop -->
+			<div class="columns is-multiline is-desktop">
+				<!-- Project 5 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://murmuring-sea-10813.herokuapp.com/"><img class="project-img" src="assets/img/work-img/ToDoList.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									This project helps you to keep fresh and up-to-date. Organize your work in accordance with their priorities in proper and efficient manner. MongoDB and herko server is the backbone of this project.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- Project 6 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://prathamkumar14.github.io/Simon-Game/"><img class="project-img" src="assets/img/work-img/SimonGame.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									This is really a super excited game made by using html,css and jquery where you can check your memory. You have to remember patter in which tiles has been pressed.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div> <!-- div of classes columns is-multiline is-desktop -->
+			<div class="columns is-multiline is-desktop">
+				<!-- Project 7 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://548j8.csb.app/"><img class="project-img" src="assets/img/work-img/React-Calculator.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									React Calculator: As the name suggest it is made using React with some awesome UI. I have implemented this is using Hooks (usestate).
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- Project 8 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://z7vqd.csb.app/"><img class="project-img" src="assets/img/work-img/React-Emojipedia.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									Depict the correct meaning of every emoji precisely. It has a better UI made by React.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div> <!-- div of classes columns is-multiline is-desktop -->
+			<div class="columns is-multiline is-desktop">
+				<!-- Project 9 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://u0kh1.csb.app/"><img class="project-img" src="assets/img/work-img/React-Keeper.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									Keep notes of everything you learned is best practice to remember it for long time. This is Keeper app (Website) where you can add your notes. This is implemented using React.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+				<!-- Project 10 -->
+				<div class="column">
+					<div class="box project-text">
+						<article>
+							<div>
+								<figure class="image project-figure">
+									<a href="https://r272v.csb.app/"><img class="project-img" src="assets/img/work-img/React-ToDo.png" alt="Image"></a>
+								</figure>
+							</div>
+							<div>
+								<p>
+									A better UI todo list helps you to keep fresh and upto date also helps you to prioritize your work in efficient manner and hence increase your productivity. This project contains a awesome UI because it is implemented using React.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div> <!-- div of classes columns is-multiline is-desktop -->
+		</div>
+	</section>
 
-				<div class="columns is-multiline is-desktop">
-					<!-- Project 1 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://peaceful-journey-57785.herokuapp.com/"><img class="project-img" src="assets/img/work-img/Blog.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										Platform where you can share your Views, Ideas, Thoughts, Feelings. This Blog website is made by using MongoDB, Node.js, Express, EJS.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-					<!-- Project 2 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://prathamkumar14.github.io/tindog/"><img class="project-img" src="assets/img/work-img/Tindog.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										Just to check my depth of knowledge in field of web Development, I made a tindog website using some basic stuff. This is an responsive website in terms of Screen size i.e, laptop, tablet, Mobile devices
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div> <!-- div of classes columns is-multiline is-desktop -->
-				<div class="columns is-multiline is-desktop">
-					<!-- Project 3 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://pacific-reef-71103.herokuapp.com/"><img class="project-img" src="assets/img/work-img/SignUp.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										 This is a Signup page where you can signup and once done your details will be stored in the databse. This project is implemented using external server and some backend techniques.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-					<!-- Project 4 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://prathamkumar14.github.io/Drum-Kit/"><img class="project-img" src="assets/img/work-img/DrumKit.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										Play some melody here: This is a virtual drum kit where you can compose your favourite music just by pressing your keyboard's keys.<br>This is Frontend only using javascript.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div> <!-- div of classes columns is-multiline is-desktop -->
-				<div class="columns is-multiline is-desktop">
-					<!-- Project 5 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://murmuring-sea-10813.herokuapp.com/"><img class="project-img" src="assets/img/work-img/ToDoList.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										This project helps you to keep fresh and up-to-date. Organize your work in accordance with their priorities in proper and efficient manner. MongoDB and herko server is the backbone of this project.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-					<!-- Project 6 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://prathamkumar14.github.io/Simon-Game/"><img class="project-img" src="assets/img/work-img/SimonGame.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										This is really a super excited game made by using html,css and jquery where you can check your memory. You have to remember patter in which tiles has been pressed.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div> <!-- div of classes columns is-multiline is-desktop -->
-				<div class="columns is-multiline is-desktop">
-					<!-- Project 7 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://548j8.csb.app/"><img class="project-img" src="assets/img/work-img/React-Calculator.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-									   React Calculator: As the name suggest it is made using React with some awesome UI. I have implemented this is using Hooks (usestate).
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-					<!-- Project 8 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://z7vqd.csb.app/"><img class="project-img" src="assets/img/work-img/React-Emojipedia.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-											Depict the correct meaning of every emoji precisely. It has a better UI made by React.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div> <!-- div of classes columns is-multiline is-desktop -->
-				<div class="columns is-multiline is-desktop">
-					<!-- Project 9 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://u0kh1.csb.app/"><img class="project-img" src="assets/img/work-img/React-Keeper.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										Keep notes of everything you learned is best practice to remember it for long time. This is Keeper app (Website) where you can add your notes. This is implemented using React.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-					<!-- Project 10 -->
-					<div class="column">
-						<div class="box project-text">
-							<article>
-								<div>
-									<figure class="image project-figure">
-										<a href="https://r272v.csb.app/"><img class="project-img" src="assets/img/work-img/React-ToDo.png" alt="Image"></a>
-									</figure>
-								</div>
-								<div>
-									<p>
-										A better UI todo list helps you to keep fresh and upto date also helps you to prioritize your work in efficient manner and hence increase your productivity. This project contains a awesome UI because it is implemented using React.
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</div> <!-- div of classes columns is-multiline is-desktop -->
-			</div>
-		</section>
+	<hr class="line">
 
-		<hr class="line">
+	<!-- Contact form -->
 
-		<!-- Footer -->
-			<footer class="white-section" id="footer">
+	<section class="section">
 
-				<p>Follow me on</p>
-				<a href="https://github.com/PrathamKumar14"><i class=" fa-color fa-2x fa-footer fab fa-github"></i></a>
-		    <a href="https://twitter.com/pratham85086605"><i class=" fa-color fa-2x fa-footer fab fa-twitter"></i></a>
-				<a href="https://www.linkedin.com/in/pratham-kumar-abb051175/"><i class=" fa-color fa-2x fa-footer fab fa-linkedin-in"></i></a>
-		    <a href="https://www.facebook.com/profile.php?id=100008740838226"><i class=" fa-color fa-2x fa-footer fab fa-facebook-f"></i></a>
-		    <a href="https://www.instagram.com/rnezhmet_dinov/"><i class=" fa-color fa-2x fa-footer fab fa-instagram"></i></a>
+		<div class="container">
+			<h1 class="form-heading">Let's Collaborate</h1>
+			<p class="form-text">If you are interesting in working with me, fill out the form below and I will get back to you right away!</p>
+		</div>
 
-		    <p class="footer-line">© Copyright 2020: PRATHAM</p>
+		<form>
+			<input name="name" type="text" class="feedback-input" placeholder="Name" />
+			<input name="email" type="text" class="feedback-input" placeholder="Email" />
+			<textarea name="text" class="feedback-input" placeholder="Message"></textarea>
+			<input type="submit" value="SUBMIT" />
+		</form>
 
-		  </footer>
+	</section>
 
-		<!-- Scripts  -->
-		<script src="animatedArrow.js"></script>
-		<script src="controller.js"></script>
-	</body>
+	<hr class="line">
+
+	<!-- Footer -->
+	<footer class="white-section" id="footer">
+
+		<p>Follow me on</p>
+		<a href="https://github.com/PrathamKumar14"><i class=" fa-color fa-2x fa-footer fab fa-github"></i></a>
+		<a href="https://twitter.com/pratham85086605"><i class=" fa-color fa-2x fa-footer fab fa-twitter"></i></a>
+		<a href="https://www.linkedin.com/in/pratham-kumar-abb051175/"><i class=" fa-color fa-2x fa-footer fab fa-linkedin-in"></i></a>
+		<a href="https://www.facebook.com/profile.php?id=100008740838226"><i class=" fa-color fa-2x fa-footer fab fa-facebook-f"></i></a>
+		<a href="https://www.instagram.com/rnezhmet_dinov/"><i class=" fa-color fa-2x fa-footer fab fa-instagram"></i></a>
+
+		<p class="footer-line">© Copyright 2020: PRATHAM</p>
+
+	</footer>
+
+	<!-- Scripts  -->
+	<script src="animatedArrow.js"></script>
+	<script src="controller.js"></script>
+</body>
+
 </html>
