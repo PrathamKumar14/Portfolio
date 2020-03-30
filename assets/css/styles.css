@@ -15,7 +15,14 @@ html, body {
   min-width: 100%;
   min-height: 100%;
   opacity: 0.4;
+  object-fit: fill;
 }
+
+/* @media only screen and (max-width: 600px) {
+  #myvideo {
+    opacity: 0;
+  }
+} */
 
 .line {
   width: 500px;
