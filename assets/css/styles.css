@@ -8,6 +8,15 @@ html, body {
   overflow-x: hidden
 }
 
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.4;
+}
+
 .line {
   width: 500px;
   margin: auto;
@@ -15,29 +24,29 @@ html, body {
   border-radius: 50%;
 }
 
-.nav {
+/* .nav {
   background: linear-gradient(to right, rgb(131, 96, 195), rgb(46, 191, 145)) !important;
-}
+} */
 
 .navbar-brand {
   padding-top: 10px;
   padding-left: 10px;
   font-size: 2rem;
-  color: yellow;
+  color: black;
 }
 
 .navbar-brand:hover {
-  color: #000;
+  color: #fff;
 }
 
 .nav-item {
   margin-right: 15px;
-  color: yellow !important;
+  color: black !important;
   font-size: 1.2rem !important;
 }
 
 .nav-item:hover {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .avatar {
