@@ -10,19 +10,11 @@ html, body {
 
 #myVideo {
   position: absolute;
-  right: 0;
-  bottom: 0;
   min-width: 100%;
   min-height: 100%;
   opacity: 0.4;
   object-fit: cover;
 }
-
-/* @media only screen and (max-width: 600px) {
-  #myvideo {
-    opacity: 0;
-  }
-} */
 
 .line {
   width: 500px;
