@@ -16,6 +16,10 @@ html, body {
   object-fit: cover;
 }
 
+.logo {
+  height: 100px;
+}
+
 .line {
   width: 500px;
   margin: auto;
@@ -71,7 +75,8 @@ a:hover {
   text-align: center;
   margin: 0 auto;
   font-size: 1.5rem;
-  font-family: Merriweather;
+  /* font-family: Merriweather; */
+  font-family: "Bitter";
 }
 
 .title {
