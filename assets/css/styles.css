@@ -16,10 +16,6 @@ html, body {
   object-fit: cover;
 }
 
-.logo {
-  height: 100px;
-}
-
 .line {
   width: 500px;
   margin: auto;
@@ -212,6 +208,10 @@ textarea {
   padding: 3% 15%;
   text-align: center;
   background-color: #000;
+}
+
+.logo {
+  height: 100px;
 }
 
 .fa-footer {
